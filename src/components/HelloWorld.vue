@@ -13,37 +13,35 @@
             </div>
             <div class="name d-flex flex-column">				
               <h2 class="ml-2" >Juan David Mateus</h2>
-               <p class="ml-3">Full Stack Developer</p>
-                    
-                         
+               <p class="ml-3">Full Stack Developer</p>                         
             </div>
 
             <div class="d-flex flex-column justify-space-between contacto">
               <h3 class="my-2 ml-2">CONTACTO</h3>          
-              <h4 class="my-1"><i class="fab fa-whatsapp fa-lg ml-3"></i> + 57(310)3844660</h4>
-              <h4 class="my-1"><i class="far fa-envelope fa-lg ml-3"></i> juanmateuz@gmail.com</h4>
+              <h4 class="my-1 ml-2"><i class="fab fa-whatsapp fa-lg ml-3"></i> + 57(310)3844660</h4>
+              <h4 class="my-1 ml-2"><i class="far fa-envelope fa-lg ml-3"></i> juanmateuz@gmail.com</h4>
             </div>
                   
             <div class="d-flex flex-column justify-space-between contacto">
               <h3 class="my-2 ml-2">PERFIL</h3>   
-              <h4 class="my-1 "><i class="fab fa-linkedin fa-lg ml-4"></i> LinkedIn</h4>
-              <h4 class="my-1 "><i class="fab fa-github fa-lg ml-4"></i> GitHub</h4> 
+              <h4 class="my-1 ml-2"><i class="fab fa-linkedin fa-lg ml-4"></i> LinkedIn</h4>
+              <h4 class="my-1 ml-2"><i class="fab fa-github fa-lg ml-4"></i> GitHub</h4> 
             </div>
 
             <div class="d-flex flex-column justify-space-between contacto">
               <h3 class="my-2 ml-2">CURRICULUM</h3> 
-              <h4 class="my-1 "><i class="far fa-file-pdf fa-lg ml-3"></i> Formato Impresión</h4>              
+              <h4 class="my-1 ml-2"><i class="far fa-file-pdf fa-lg ml-3"></i> Formato Impresión</h4>              
             </div> 
 
             <div class="d-flex flex-column justify-space-between">              
               <h3 class="my-5 ml-2">Habilidades</h3> 
-                 <hr>
-              <h4 class="my-1"><i class="fab fa-angular fa-lg ml-3" style="color:#BF0011"></i> Angular</h4>
-              <h4 class="my-1"><i class="fab fa-vuejs fa-lg ml-3" style="color:#1D5201"></i> Vue js</h4>    
-              <h4 class="my-1"><i class="fab fa-cuttlefish fa-lg ml-3" style="color:#4B026D"></i><strong>#</strong> .Net Core</h4>      
-              <h4 class="my-1"><i class="fab fa-cuttlefish fa-lg ml-3" style="color:#4B026D"></i><strong>#</strong> .Net Framework</h4>  
-              <h4 class="my-1"><i class="fab fa-html5 fa-lg ml-3" style="color:#E14D03 "></i> HTML</h4>                                              
-              <h4 class="my-1"><i class="fab fa-css3-alt fa-lg ml-3" style="color:#1C90E6"></i> CSS</h4>                                                                                          
+              <hr>
+              <h4 class="my-1 ml-2"><i class="fab fa-angular fa-lg ml-3" style="color:#BF0011"></i> Angular</h4>
+              <h4 class="my-1 ml-2"><i class="fab fa-vuejs fa-lg ml-3" style="color:#1D5201"></i> Vue js</h4>    
+              <h4 class="my-1 ml-2"><i class="fab fa-cuttlefish fa-lg ml-3" style="color:#4B026D"></i><strong>#</strong> .Net Core</h4>      
+              <h4 class="my-1 ml-2"><i class="fab fa-cuttlefish fa-lg ml-3" style="color:#4B026D"></i><strong>#</strong> .Net Framework</h4>  
+              <h4 class="my-1 ml-2"><i class="fab fa-html5 fa-lg ml-3" style="color:#E14D03 "></i> HTML</h4>                                              
+              <h4 class="my-1 ml-2"><i class="fab fa-css3-alt fa-lg ml-3" style="color:#1C90E6"></i> CSS</h4>                                                                                          
             </div> 
           </v-flex>
 
@@ -132,24 +130,19 @@ import Proyectos from './Proyectos';
 <style scoped>
 .name{
   color:white;
-  background-color: #434E5E;
- 
-   
+  background-color: #434E5E;   
 }
+
 .contacto{
 background-color:#F64D08;/*#F68308 */
 color: white;/*#D7DBDD */
 }
  
-   .cardPrincipal{
-     box-shadow: 0 0 0 2em #F4AAB9,
-              0 0 0 4em #66CCFF;
-      margin: 4em;
-      padding:1em;
-   }
-   img{
-     
-   }
-   
-
+.cardPrincipal{
+  box-shadow: 0 0 0 2em #F4AAB9,
+          0 0 0 4em #66CCFF;
+  margin: 4em;
+  padding:1em;
+}
+ 
 </style>
