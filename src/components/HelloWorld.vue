@@ -1,19 +1,16 @@
 <template>
   <v-card class="mx-auto my-7" max-width="900">
     <v-app id="inspire" >    
-      <v-container width="700" class="my-1 ">
-        <v-layout row  width="500">
-          <v-flex xs12 sm4  md3 order-lg2 >
-             <v-avatar class=""
-             
-             tile
-             size="225">           
-                <v-img                             
-                    width="500px"
-                    height="400px"
-                    src="../assets/profile.jpg">
+      <v-container  class="my-1 ">
+        <v-layout row>
+          <v-flex xs12 sm4  md3 order-lg2  >
+              <div id="div1" class="d-flex flex-column justify-space-between align-center" >        
+                <v-img                                                             
+                   width="25rem"
+                    height="18rem"
+                    src="../assets/profile3.jpg">
                 </v-img>            
-             </v-avatar>      
+            </div>
             <div class="name d-flex flex-column">				
               <h2 class="ml-2" >Juan David Mateus</h2>
                <p class="ml-3">Full Stack Developer</p>
@@ -153,5 +150,6 @@ color: white;/*#D7DBDD */
    img{
      
    }
+   
 
 </style>
